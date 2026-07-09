@@ -1,0 +1,69 @@
+{
+  "model_loaded": "OpenMed/OpenMed-PII-LiteClinical-Small-66M-v1",
+  "model_ios_pin": "OpenMed/OpenMed-PII-LiteClinical-Small-66M-v1-mlx",
+  "runtime_note": "Real OpenMed 66M weights run on CPU/PyTorch. iOS ships the MLX-format packaging of the same weights; MLX is Apple-only and cannot run on this Linux host. Detections/scores are equivalent.",
+  "policy": {
+    "auto_redact_threshold": 0.75,
+    "review_threshold": 0.55,
+    "suppressed_labels": [
+      "time"
+    ]
+  },
+  "dataset": {
+    "rows": 300,
+    "text_columns": [
+      "symptom_free_text",
+      "additional_comments"
+    ],
+    "planted_entities": 72,
+    "seed": 7,
+    "pii_leak_rate": 0.12
+  },
+  "routing_counts": {
+    "baseline_detections": 163,
+    "suppressed_time": 90,
+    "dropped_as_noise": 1,
+    "auto_redact": 69,
+    "held_for_review": 3
+  },
+  "evaluation_additional_rules": {
+    "precision": 0.9722222222222222,
+    "recall": 0.9722222222222222,
+    "f1": 0.9722222222222222,
+    "true_positives": 70,
+    "false_positives": 2,
+    "false_negatives": 2,
+    "missed_entities": [
+      {
+        "row_id": 93,
+        "column": "additional_comments",
+        "entity_label": "state",
+        "entity_text": "VI"
+      },
+      {
+        "row_id": 110,
+        "column": "symptom_free_text",
+        "entity_label": "city",
+        "entity_text": "North Amandafurt"
+      }
+    ]
+  },
+  "evaluation_baseline_openmed": {
+    "precision": 0.43558282208588955,
+    "recall": 0.9861111111111112,
+    "f1": 0.6042553191489362,
+    "true_positives": 71,
+    "false_positives": 92,
+    "false_negatives": 1,
+    "missed_entities": [
+      {
+        "row_id": 110,
+        "column": "symptom_free_text",
+        "entity_label": "city",
+        "entity_text": "North Amandafurt"
+      }
+    ]
+  },
+  "scan_seconds": 6.42,
+  "total_seconds": 7.76
+}

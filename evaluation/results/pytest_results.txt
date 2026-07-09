@@ -1,0 +1,53 @@
+============================= test session starts ==============================
+platform linux -- Python 3.10.12, pytest-9.1.1, pluggy-1.6.0 -- /usr/bin/python3
+cachedir: .pytest_cache
+rootdir: /sessions/festive-focused-thompson/mnt/SurveyShield
+configfile: pyproject.toml
+plugins: anyio-4.14.1, Faker-40.28.1
+collecting ... collected 31 items
+
+tests/test_benchmark.py::test_benchmark_returns_one_row_per_batch_size PASSED [  3%]
+tests/test_benchmark.py::test_benchmark_throughput_is_positive PASSED    [  6%]
+tests/test_evaluate.py::test_perfect_detection_scores_1_0 PASSED         [  9%]
+tests/test_evaluate.py::test_missed_entity_is_reported_by_name PASSED    [ 12%]
+tests/test_evaluate.py::test_false_positive_lowers_precision_but_not_recall PASSED [ 16%]
+tests/test_pipeline.py::test_run_quality_gate_writes_expected_files PASSED [ 19%]
+tests/test_pipeline.py::test_no_row_appears_in_both_clean_and_review_outputs PASSED [ 22%]
+tests/test_policy.py::test_default_policy_thresholds PASSED              [ 25%]
+tests/test_policy.py::test_default_policy_covers_common_labels PASSED    [ 29%]
+tests/test_policy.py::test_unknown_label_falls_back_to_default_method PASSED [ 32%]
+tests/test_policy.py::test_policy_is_a_plain_dataclass_and_overridable PASSED [ 35%]
+tests/test_red_team.py::test_test_case_set_has_evasion_and_trap_cases PASSED [ 38%]
+tests/test_red_team.py::test_test_cases_have_unique_ids PASSED           [ 41%]
+tests/test_red_team.py::test_run_red_team_evaluation_adds_expected_columns PASSED [ 45%]
+tests/test_red_team.py::test_trap_case_with_no_pii_is_not_flagged PASSED [ 48%]
+tests/test_redact.py::test_high_confidence_entity_gets_redacted PASSED   [ 51%]
+tests/test_redact.py::test_entity_below_threshold_is_left_untouched PASSED [ 54%]
+tests/test_redact.py::test_rows_with_no_entities_are_unchanged PASSED    [ 58%]
+tests/test_report.py::test_qa_report_has_expected_keys PASSED            [ 61%]
+tests/test_report.py::test_pii_rate_is_zero_when_nothing_detected PASSED [ 64%]
+tests/test_review.py::test_only_entities_below_threshold_are_returned PASSED [ 67%]
+tests/test_review.py::test_queue_is_sorted_ascending_by_confidence PASSED [ 70%]
+tests/test_review.py::test_empty_scan_results_produce_empty_queue PASSED [ 74%]
+tests/test_scan.py::test_scan_finds_planted_entity PASSED                [ 77%]
+tests/test_scan.py::test_scan_skips_empty_and_nan_text PASSED            [ 80%]
+tests/test_scan.py::test_scan_output_columns PASSED                      [ 83%]
+tests/test_scan.py::test_scan_returns_empty_dataframe_with_correct_columns_when_no_hits PASSED [ 87%]
+tests/test_synthetic_data.py::test_generates_requested_row_count PASSED  [ 90%]
+tests/test_synthetic_data.py::test_ground_truth_rows_are_subset_of_survey_rows PASSED [ 93%]
+tests/test_synthetic_data.py::test_ground_truth_columns_reference_open_text_fields PASSED [ 96%]
+tests/test_synthetic_data.py::test_same_seed_is_reproducible PASSED      [100%]
+
+=============================== warnings summary ===============================
+../../.local/lib/python3.10/site-packages/torch/jit/_script.py:1488
+../../.local/lib/python3.10/site-packages/torch/jit/_script.py:1488
+../../.local/lib/python3.10/site-packages/torch/jit/_script.py:1488
+../../.local/lib/python3.10/site-packages/torch/jit/_script.py:1488
+../../.local/lib/python3.10/site-packages/torch/jit/_script.py:1488
+../../.local/lib/python3.10/site-packages/torch/jit/_script.py:1488
+../../.local/lib/python3.10/site-packages/torch/jit/_script.py:1488
+  /sessions/festive-focused-thompson/.local/lib/python3.10/site-packages/torch/jit/_script.py:1488: DeprecationWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+    warnings.warn(
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+======================== 31 passed, 7 warnings in 3.03s ========================

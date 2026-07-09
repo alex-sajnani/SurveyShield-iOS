@@ -1,0 +1,26 @@
+# Xcode
+build/
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.xcworkspace
+xcuserdata/
+DerivedData/
+*.xcodeproj/xcuserdata/
+*.xcodeproj/project.xcworkspace/xcuserdata/
+*.resolved
+
+# Swift
+.DS_Store
+.swiftpm/
+.build/
+*.swiftpm
+
+# CocoaPods
+Pods/
+Podfile.lock
+
+# Other
+.env
+.env.local

@@ -1,0 +1,353 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0414401F2FF91D4600784104 /* OpenMedKit in Frameworks */ = {isa = PBXBuildFile; productRef = 0414401E2FF91D4600784104 /* OpenMedKit */; };
+		7A1B2C3D4E5F6A7E /* SurveyShieldApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1B2C3D4E5F6A7F /* SurveyShieldApp.swift */; };
+		7A1B2C3D4E5F6A80 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1B2C3D4E5F6A81 /* Models.swift */; };
+		7A1B2C3D4E5F6A82 /* PIIScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1B2C3D4E5F6A83 /* PIIScanner.swift */; };
+		7A1B2C3D4E5F6A84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A1B2C3D4E5F6A85 /* Assets.xcassets */; };
+		AA000000000000000000000F /* PolicyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000000000000000000000C /* PolicyTests.swift */; };
+		AA0000000000000000000010 /* RedactionLogicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000000000000000000000D /* RedactionLogicTests.swift */; };
+		AA0000000000000000000011 /* ModelsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000000000000000000000E /* ModelsTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7A1B2C3D4E5F6A7F /* SurveyShieldApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveyShieldApp.swift; sourceTree = "<group>"; };
+		7A1B2C3D4E5F6A81 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		7A1B2C3D4E5F6A83 /* PIIScanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PIIScanner.swift; sourceTree = "<group>"; };
+		7A1B2C3D4E5F6A85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7A1B2C3D4E5F6A86 /* SurveyShield.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SurveyShield.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA0000000000000000000002 /* SurveyShieldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SurveyShieldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA000000000000000000000C /* PolicyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolicyTests.swift; sourceTree = "<group>"; };
+		AA000000000000000000000D /* RedactionLogicTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedactionLogicTests.swift; sourceTree = "<group>"; };
+		AA000000000000000000000E /* ModelsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelsTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7A1B2C3D4E5F6A89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0414401F2FF91D4600784104 /* OpenMedKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0414401D2FF91D4600784104 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7A1B2C3D4E5F6A87 /* SurveyShield */ = {
+			isa = PBXGroup;
+			children = (
+				7A1B2C3D4E5F6A7F /* SurveyShieldApp.swift */,
+				7A1B2C3D4E5F6A81 /* Models.swift */,
+				7A1B2C3D4E5F6A83 /* PIIScanner.swift */,
+				7A1B2C3D4E5F6A85 /* Assets.xcassets */,
+			);
+			path = SurveyShield;
+			sourceTree = "<group>";
+		};
+		7A1B2C3D4E5F6A88 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7A1B2C3D4E5F6A86 /* SurveyShield.app */,
+				AA0000000000000000000002 /* SurveyShieldTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA0000000000000000000009 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				AA000000000000000000000C /* PolicyTests.swift */,
+				AA000000000000000000000D /* RedactionLogicTests.swift */,
+				AA000000000000000000000E /* ModelsTests.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		7A1B2C3D4E5F6A90 = {
+			isa = PBXGroup;
+			children = (
+				7A1B2C3D4E5F6A87 /* SurveyShield */,
+				AA0000000000000000000009 /* Tests */,
+				0414401D2FF91D4600784104 /* Frameworks */,
+				7A1B2C3D4E5F6A88 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7A1B2C3D4E5F6A8C /* SurveyShield */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A1B2C3D4E5F6A8D /* Build configuration list for PBXNativeTarget "SurveyShield" */;
+			buildPhases = (
+				7A1B2C3D4E5F6A8A /* Sources */,
+				7A1B2C3D4E5F6A89 /* Frameworks */,
+				7A1B2C3D4E5F6A8B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SurveyShield;
+			packageProductDependencies = (
+				0414401E2FF91D4600784104 /* OpenMedKit */,
+			);
+			productName = SurveyShield;
+			productReference = 7A1B2C3D4E5F6A86 /* SurveyShield.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AA0000000000000000000001 /* SurveyShieldTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA0000000000000000000006 /* Build configuration list for PBXNativeTarget "SurveyShieldTests" */;
+			buildPhases = (
+				AA0000000000000000000003 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA000000000000000000000A /* PBXTargetDependency */,
+			);
+			name = SurveyShieldTests;
+			productName = SurveyShieldTests;
+			productReference = AA0000000000000000000002 /* SurveyShieldTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7A1B2C3D4E5F6A8E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				TargetAttributes = {
+					AA0000000000000000000001 = {
+						TestTargetID = 7A1B2C3D4E5F6A8C;
+					};
+				};
+			};
+			buildConfigurationList = 7A1B2C3D4E5F6A8F /* Build configuration list for PBXProject "SurveyShield" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7A1B2C3D4E5F6A90;
+			packageReferences = (
+				0414401A2FF8878E00784104 /* XCLocalSwiftPackageReference "Vendor/OpenMedKit" */,
+			);
+			productRefGroup = 7A1B2C3D4E5F6A88 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7A1B2C3D4E5F6A8C /* SurveyShield */,
+				AA0000000000000000000001 /* SurveyShieldTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7A1B2C3D4E5F6A8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A1B2C3D4E5F6A84 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7A1B2C3D4E5F6A8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A1B2C3D4E5F6A7E /* SurveyShieldApp.swift in Sources */,
+				7A1B2C3D4E5F6A80 /* Models.swift in Sources */,
+				7A1B2C3D4E5F6A82 /* PIIScanner.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA0000000000000000000003 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA000000000000000000000F /* PolicyTests.swift in Sources */,
+				AA0000000000000000000010 /* RedactionLogicTests.swift in Sources */,
+				AA0000000000000000000011 /* ModelsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXContainerItemProxy section */
+		AA000000000000000000000B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A1B2C3D4E5F6A8E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A1B2C3D4E5F6A8C;
+			remoteInfo = SurveyShield;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXTargetDependency section */
+		AA000000000000000000000A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A1B2C3D4E5F6A8C /* SurveyShield */;
+			targetProxy = AA000000000000000000000B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7A1B2C3D4E5F6A92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6LH847DK96;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.local.surveyshield;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		7A1B2C3D4E5F6A93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6LH847DK96;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.local.surveyshield;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		AA0000000000000000000007 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6LH847DK96;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.local.surveyshieldTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SurveyShield.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SurveyShield";
+			};
+			name = Debug;
+		};
+		AA0000000000000000000008 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6LH847DK96;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.local.surveyshieldTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SurveyShield.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SurveyShield";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7A1B2C3D4E5F6A8D /* Build configuration list for PBXNativeTarget "SurveyShield" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A1B2C3D4E5F6A92 /* Debug */,
+				7A1B2C3D4E5F6A93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		7A1B2C3D4E5F6A8F /* Build configuration list for PBXProject "SurveyShield" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A1B2C3D4E5F6A92 /* Debug */,
+				7A1B2C3D4E5F6A93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		AA0000000000000000000006 /* Build configuration list for PBXNativeTarget "SurveyShieldTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA0000000000000000000007 /* Debug */,
+				AA0000000000000000000008 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		0414401A2FF8878E00784104 /* XCLocalSwiftPackageReference "Vendor/OpenMedKit" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Vendor/OpenMedKit;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0414401E2FF91D4600784104 /* OpenMedKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0414401A2FF8878E00784104 /* XCLocalSwiftPackageReference "Vendor/OpenMedKit" */;
+			productName = OpenMedKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 7A1B2C3D4E5F6A8E /* Project object */;
+}

@@ -1,0 +1,164 @@
+row_id,column,entity_label,entity_text,confidence,start,end
+4,symptom_free_text,time,3am,0.9223775863647461,46,49
+6,additional_comments,first_name,Kathleen,0.9978007674217224,66,74
+6,additional_comments,last_name,Schmidt,0.9904836416244507,75,82
+7,symptom_free_text,time,6,0.5668604969978333,36,37
+8,symptom_free_text,time,7,0.6572370529174805,36,37
+9,symptom_free_text,email,jrosario@example.org,0.995453953742981,73,93
+14,symptom_free_text,time,5,0.5945664644241333,36,37
+15,symptom_free_text,time,7,0.7030501961708069,36,37
+15,symptom_free_text,time,5 hours,0.5295408368110657,38,45
+17,symptom_free_text,time,7,0.6431341171264648,36,37
+18,symptom_free_text,first_name,Melissa,0.9974849224090576,64,71
+18,symptom_free_text,last_name,Green,0.9936042428016663,72,77
+22,symptom_free_text,time,5,0.5665790438652039,36,37
+25,symptom_free_text,time,3am,0.9223775863647461,46,49
+28,symptom_free_text,time,3am,0.9223775863647461,46,49
+29,symptom_free_text,time,3am,0.9223775863647461,46,49
+29,additional_comments,street_address,75989 Heather Mission,0.9862481951713562,70,91
+29,additional_comments,city,Romerobury,0.9928842782974243,93,103
+29,additional_comments,state,UT,0.9916585087776184,105,107
+29,additional_comments,postcode,69079,0.9930427074432373,108,113
+31,symptom_free_text,first_name,Bryan,0.9973933696746826,66,71
+31,symptom_free_text,last_name,Frank,0.9702657461166382,72,77
+37,symptom_free_text,time,8,0.49020978808403015,36,37
+45,symptom_free_text,email,wesley33@example.net,0.9972583055496216,71,91
+47,symptom_free_text,time,6,0.48824343085289,36,37
+48,symptom_free_text,time,7,0.6743069291114807,36,37
+48,symptom_free_text,time,hours,0.4997939169406891,40,45
+48,additional_comments,email,dbaker@example.org,0.9969876408576965,53,71
+49,symptom_free_text,time,7,0.6927995085716248,36,37
+49,symptom_free_text,time,hours,0.5164249539375305,40,45
+50,symptom_free_text,time,3am,0.9223775863647461,46,49
+52,symptom_free_text,time,3am,0.9223775863647461,46,49
+54,symptom_free_text,time,3am,0.9223775863647461,46,49
+58,symptom_free_text,time,3am,0.9223775863647461,46,49
+61,symptom_free_text,time,3am,0.9223775863647461,46,49
+61,additional_comments,first_name,Nicole,0.9977554678916931,66,72
+61,additional_comments,last_name,Dickerson,0.9960598349571228,73,82
+63,symptom_free_text,time,8,0.6278438568115234,36,37
+70,symptom_free_text,time,8,0.49020978808403015,36,37
+72,symptom_free_text,time,3am,0.9223775863647461,46,49
+73,additional_comments,street_address,5378 Amy Burgs Suite 400,0.9538442492485046,64,88
+73,additional_comments,city,South Nicole,0.9695078134536743,90,102
+73,additional_comments,state,SD,0.991513192653656,104,106
+73,additional_comments,postcode,55553,0.9813119769096375,107,112
+75,symptom_free_text,time,4,0.6233018040657043,36,37
+75,symptom_free_text,time,5 hours,0.5467201471328735,38,45
+78,additional_comments,street_address,46557 Daniel Common Suite 156,0.9938705563545227,76,105
+78,additional_comments,city,New Tamaraborough,0.9605485200881958,107,124
+78,additional_comments,state,MS,0.9863778352737427,126,128
+78,additional_comments,postcode,47245,0.9893794655799866,129,134
+80,symptom_free_text,time,3am,0.9223775863647461,46,49
+84,symptom_free_text,time,3am,0.9223775863647461,46,49
+88,symptom_free_text,time,4,0.5931033492088318,36,37
+89,symptom_free_text,time,6,0.5837823748588562,36,37
+92,symptom_free_text,time,3am,0.9223775863647461,46,49
+93,additional_comments,street_address,5043 Brent Rapid,0.9980596899986267,76,92
+93,additional_comments,city,North Nathan,0.9760149717330933,94,106
+93,additional_comments,state,VI,0.49291229248046875,108,110
+93,additional_comments,postcode,23800,0.9548692107200623,111,116
+94,symptom_free_text,time,4,0.6040327548980713,36,37
+96,additional_comments,first_name,Jennifer,0.9975829124450684,72,80
+96,additional_comments,last_name,Watson,0.989694356918335,81,87
+98,symptom_free_text,time,4,0.5992832183837891,36,37
+98,symptom_free_text,time,hours,0.49589428305625916,40,45
+102,additional_comments,ipv4,872.793.0682,0.7054596543312073,86,98
+105,additional_comments,email,tinavasquez@example.org,0.9952069520950317,74,97
+109,symptom_free_text,street_address,24966 Woodard Curve,0.9967392086982727,66,85
+109,symptom_free_text,city,Perezton,0.9961764812469482,87,95
+109,symptom_free_text,state,AK,0.9971224665641785,97,99
+109,symptom_free_text,postcode,07630,0.9934985637664795,100,105
+110,symptom_free_text,street_address,08599 Guzman Path Suite 320,0.990642249584198,62,89
+110,symptom_free_text,city,North,0.8462543487548828,91,96
+110,symptom_free_text,city,Amandafurt,0.554835319519043,97,107
+110,symptom_free_text,state,HI,0.9904332160949707,109,111
+110,symptom_free_text,postcode,31652,0.9939898252487183,112,117
+122,symptom_free_text,time,3am,0.9223775863647461,46,49
+127,symptom_free_text,time,4,0.5931033492088318,36,37
+128,symptom_free_text,time,3am,0.9223775863647461,46,49
+129,symptom_free_text,street_address,279 Bernard Passage Suite 924,0.9974689483642578,64,93
+129,symptom_free_text,city,Lake Jesse,0.9877521991729736,95,105
+129,symptom_free_text,state,GA,0.997014045715332,107,109
+129,symptom_free_text,postcode,14908,0.9934583306312561,110,115
+132,additional_comments,street_address,4922 Jennifer Rapids,0.9961023926734924,76,96
+132,additional_comments,city,Eugenemouth,0.9913634061813354,98,109
+132,additional_comments,state,ID,0.9577025771141052,111,113
+132,additional_comments,postcode,34407,0.9899269342422485,114,119
+133,symptom_free_text,time,5,0.577226996421814,36,37
+134,symptom_free_text,time,6,0.5834845304489136,36,37
+141,symptom_free_text,time,3am,0.9223775863647461,46,49
+143,symptom_free_text,time,7,0.6572370529174805,36,37
+148,symptom_free_text,time,3am,0.9223775863647461,46,49
+150,symptom_free_text,street_address,524 Brown Views,0.9982426762580872,57,72
+150,symptom_free_text,city,Kristenberg,0.9933491349220276,74,85
+150,symptom_free_text,state,NC,0.9959971904754639,87,89
+150,symptom_free_text,postcode,45740,0.9927565455436707,90,95
+152,symptom_free_text,time,5,0.5665790438652039,36,37
+153,additional_comments,phone_number,+1-584-437-3817x18146,0.881726086139679,54,75
+154,symptom_free_text,time,5,0.5935282707214355,36,37
+154,symptom_free_text,time,5,0.5017749071121216,38,39
+155,symptom_free_text,time,3am,0.9223775863647461,46,49
+160,symptom_free_text,time,4,0.6040327548980713,36,37
+161,symptom_free_text,time,3am,0.9223775863647461,46,49
+162,symptom_free_text,time,3am,0.9223775863647461,46,49
+163,symptom_free_text,email,alvaradomisty@example.com,0.9981371164321899,75,100
+168,symptom_free_text,time,6,0.5837823748588562,36,37
+170,symptom_free_text,time,8,0.6057285666465759,36,37
+174,symptom_free_text,time,3am,0.9223775863647461,46,49
+175,symptom_free_text,time,3am,0.9223775863647461,46,49
+181,symptom_free_text,time,3am,0.9223775863647461,46,49
+183,symptom_free_text,time,3am,0.9223775863647461,46,49
+184,symptom_free_text,time,3am,0.9223775863647461,46,49
+187,symptom_free_text,time,3am,0.9223775863647461,46,49
+189,symptom_free_text,time,3am,0.9223775863647461,46,49
+191,symptom_free_text,time,3am,0.9223775863647461,46,49
+195,additional_comments,phone_number,(933)220-4508x004,0.8103650212287903,86,103
+196,symptom_free_text,time,3am,0.9223775863647461,46,49
+201,symptom_free_text,time,3am,0.9223775863647461,46,49
+202,symptom_free_text,time,5,0.5945664644241333,36,37
+204,symptom_free_text,time,3am,0.9223775863647461,46,49
+207,symptom_free_text,time,8,0.5955037474632263,36,37
+210,symptom_free_text,time,3am,0.9223775863647461,46,49
+214,symptom_free_text,time,8,0.6057285666465759,36,37
+216,symptom_free_text,time,7,0.7030501961708069,36,37
+216,symptom_free_text,time,5 hours,0.5295408368110657,38,45
+217,symptom_free_text,time,3am,0.9223775863647461,46,49
+219,symptom_free_text,time,3am,0.9223775863647461,46,49
+221,symptom_free_text,time,3am,0.9223775863647461,46,49
+222,symptom_free_text,time,3am,0.9223775863647461,46,49
+233,symptom_free_text,time,6,0.5709992051124573,36,37
+234,symptom_free_text,phone_number,(646)994-4318,0.8854725360870361,74,87
+235,additional_comments,first_name,Alex,0.997568666934967,46,50
+235,additional_comments,last_name,Arnold,0.996109664440155,51,57
+236,symptom_free_text,first_name,Samuel,0.998150646686554,73,79
+236,symptom_free_text,last_name,Schwartz,0.9969955682754517,80,88
+238,symptom_free_text,time,3am,0.9223775863647461,46,49
+240,symptom_free_text,time,8,0.6057285666465759,36,37
+250,symptom_free_text,time,5,0.5665790438652039,36,37
+255,symptom_free_text,time,3am,0.9223775863647461,46,49
+256,symptom_free_text,time,3am,0.9223775863647461,46,49
+256,additional_comments,street_address,8515 Rogers Run Apt. 165,0.9964959621429443,44,68
+256,additional_comments,city,South James,0.9901186227798462,70,81
+256,additional_comments,state,LA,0.9966712594032288,83,85
+256,additional_comments,postcode,45652,0.995377779006958,86,91
+259,symptom_free_text,time,7,0.6820694208145142,36,37
+260,symptom_free_text,coordinate,524.497.9583x698,0.6947188973426819,74,90
+261,symptom_free_text,time,7,0.7133293151855469,36,37
+261,symptom_free_text,time,3 hours,0.5611485242843628,38,45
+261,symptom_free_text,email,kellynelson@example.net,0.9969569444656372,66,89
+265,symptom_free_text,time,5,0.6552754044532776,36,37
+265,symptom_free_text,time,2 hours,0.5453728437423706,38,45
+267,symptom_free_text,email,michaeljenkins@example.org,0.9968146085739136,72,98
+278,symptom_free_text,time,6,0.5668604969978333,36,37
+281,symptom_free_text,time,3am,0.9223775863647461,46,49
+284,symptom_free_text,time,3am,0.9223775863647461,46,49
+286,additional_comments,first_name,Robert,0.9977388381958008,78,84
+286,additional_comments,last_name,Leonard,0.9894363880157471,85,92
+293,symptom_free_text,time,3am,0.9223775863647461,46,49
+295,symptom_free_text,time,3am,0.9223775863647461,46,49
+299,symptom_free_text,time,5,0.5074523687362671,36,37
+299,symptom_free_text,street_address,484 Smith Junctions,0.9981301426887512,57,76
+299,symptom_free_text,city,South Warren,0.984242856502533,78,90
+299,symptom_free_text,state,VI,0.9597818851470947,92,94
+299,symptom_free_text,postcode,04648,0.9902087450027466,95,100
