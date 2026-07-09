@@ -171,3 +171,5 @@ If you use OpenMed in published work, cite the paper as the project asks:
 - OpenMed repository: https://github.com/maziyarpanahi/openmed
 - OpenMedKit (Swift): https://github.com/maziyarpanahi/openmed/tree/master/swift/OpenMedKit
 - OpenMed NER paper: https://arxiv.org/abs/2508.01630
+
+Portions of this codebase were developed with assistance from [Claude Code](https://claude.com/claude-code).
