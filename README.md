@@ -1,7 +1,7 @@
 # SurveyShield iOS
 ### On-Device PII Screening for Survey Responses, powered by OpenMed
 
-A native iOS app that screens open-text survey responses for personally identifiable information before the response is ever submitted. Detection and redaction run entirely on the device using OpenMed's clinical NER models through the OpenMedKit Swift framework. No response text leaves the phone at any point in the flow.
+A native iOS app that screens open-text survey responses for personally identifiable information before the response is ever submitted. Detection and redaction run entirely on the device using OpenMed's clinical NER models through the OpenMedKit Swift framework. No flagged response text leaves the phone until approved by the user.
 
 ---
 
